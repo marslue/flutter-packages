@@ -7,7 +7,7 @@ package io.flutter.plugins.googlemaps;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.spy;
 
-import com.google.android.gms.internal.maps.zzag;
+import com.google.android.gms.internal.maps.zzam;
 import com.google.android.gms.maps.model.Polygon;
 import org.junit.Test;
 import org.mockito.Mockito;
@@ -16,7 +16,7 @@ public class PolygonControllerTest {
 
   @Test
   public void controller_SetsStrokeDensity() {
-    final zzag z = mock(zzag.class);
+    final zzam z = mock(zzam.class);
     final Polygon polygon = spy(new Polygon(z));
 
     final float density = 5;
